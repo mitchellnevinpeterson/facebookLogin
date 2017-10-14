@@ -1,0 +1,174 @@
+/*Reset*/
+* {
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+/*All div tags and a tags*/	
+div {
+	text-align: center;
+}
+a {
+	text-decoration: none;
+}
+
+/*Top Logo*/
+.facebook-img {
+	display: inline-block;
+	text-align: center;
+	box-sizing: border-box;
+	height: 44px;
+	margin: 0 auto;
+	padding: 7px 0;
+	position: relative;
+	width: 100%;
+	background-color: #3b5998;
+}
+
+.logo-png {
+	background-size: 104px 55px;
+	background-position: 0 0;
+	width: 103px;
+    height: 21px;
+    border: 0;
+    margin: 5px 0;
+    vertical-align: top;
+}
+
+.logo {
+	font-family: Helvetica, Arial, sans-serif;
+	min-width: 100px;
+}
+/*Download App*/
+
+h1 {
+	color: #576b95;
+	font-size: 14px;
+	line-height: 18px;
+	margin: 12px auto;
+	font-weight: normal;
+	border-radius: 6px;
+	border: 1px solid #cccc00;
+	background-color: #ffffcc;
+	width: 415px;
+}
+h1 > span {
+	margin: 12px 10px;
+	position: absolute;
+
+}
+
+.download {
+	text-align: left;
+}
+.fa-mobile {
+	margin-left: 12px;
+}
+
+/*CTA*/
+button:hover {
+	cursor: pointer;
+}
+.top-section {
+	background-color: #eceff5;
+	padding-bottom: 36px;
+	margin-bottom: 12px;
+}
+hr {
+	margin-bottom: 3px;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: inline-block;
+	width: 40%;
+}
+.or {
+	font-size: 14px;
+	color: #576b95;
+}
+.cta input {
+	border: 0;
+	font-size: 14px;
+	padding: 15px;
+    width: 93%;
+    border-radius: 4px;
+}
+.cta {
+	margin: 0 auto;
+    max-width: 416px;
+}
+
+ .user-text {
+	border-bottom: 1px solid #e5e5e5;
+	border-left: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+}
+
+.login {
+	color: #fff;
+	background-color: #3b5998; 
+	width: 100%;
+	font-size: 14px;
+	font-weight: bold;
+	height: 36px;
+	line-height: 36px;
+	border-radius: 4px;
+}
+
+.new-account {
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	height: 36px;
+	line-height: 36px;
+	width: 40%;
+	background: linear-gradient(#75ab4b, #4a8532);
+	border-radius: 4px;
+}
+
+.forgot {
+	margin-top: 12px; 
+}
+
+.help, ul {
+	color: #7596c8;
+	font-size: 12px;
+	list-style-type: none;
+
+}
+
+#padding-top {
+	padding-top: 12px;
+}
+/*Languages*/
+.languages {
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+.lang {
+	color: #576b95;
+	font-size: 12px;
+}
+
+.lang-left {
+	float: left;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	margin: 0 0 0 23%;
+}
+
+.lang-right {
+	float: right;
+	display: inline-block;
+	margin-right: 23%;
+}
+
+/*Copy Right Footer*/
+.footer { 
+	margin-top: 100px;
+	display: block;
+	color: grey;
+	font-size: 12px;
+}
